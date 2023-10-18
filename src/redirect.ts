@@ -76,7 +76,7 @@ async function getVideos(apiKey: string, channelId: string) {
  */
 export async function redirect(apiKey: string, channelId: string) {
     try {
-        // Retrieve latest (archived) streams.
+        // Retrieve latest (scheduled) streams.
         const videos = await getVideos(apiKey, channelId);
 
         // Check to see if live stream exists.
