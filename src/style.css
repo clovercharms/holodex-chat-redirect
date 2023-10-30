@@ -2,3 +2,12 @@
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
+
+article.error {
+    background-color: white;
+    padding: 1rem;
+}
+
+article.error h1 {
+    color: red;
+}
